@@ -1,1 +1,16 @@
-[{"title":"Test Title","text":"Test text"},{"title":"asdasdasd","text":"asdasdasd"},{"title":"شسيشسي","text":"سيشسيشسيض"}]
+{
+  "noteInfo": [
+    {
+      "title": "asdasd",
+      "text": "asdasdasd"
+    },
+    {
+      "title": "adasd",
+      "text": "asdasdad"
+    },
+    {
+      "title": "مساء الخير",
+      "text": "مساء النور"
+    }
+  ]
+}
