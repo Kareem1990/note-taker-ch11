@@ -54,4 +54,28 @@ app.listen(PORT, () => {
   });
 
 
+//delete function
+
+  function deleteNote(id, notesArray) {
+    for (let i = 0; i < notesArray.length; i++) {
+        let note = notesArray[i];
+
+        if (note.id == id) {
+            notesArray.splice(i, 1);
+            fs.writeFileSync(
+                path.join(__dirname, './db/db.json'),
+                JSON.stringify(notesArray, null, 2)
+            );
+
+            break;
+        }
+    }
+}
+
+app.delete('/api/notes/:id', (req, res) => {
+    deleteNote(req.params.id, noteInfo);
+    res.json(true);
+});
+
+
 //   https://note-taker-ch11.herokuapp.com/

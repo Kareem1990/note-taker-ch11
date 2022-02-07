@@ -1,9 +1,12 @@
-{
-  "noteInfo": [
-    {
-      "title": "test",
-      "text": "test",
-      "id": "1"
-    }
-  ]
-}
+[
+  {
+    "title": "test 2",
+    "text": " test 2",
+    "id": "1"
+  },
+  {
+    "title": "test 4",
+    "text": "test 4",
+    "id": "3"
+  }
+]
