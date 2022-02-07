@@ -39,19 +39,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
   });
 
-// const createNote = () => {
-
-// }
-
-
-
-
-  
-
 
 app.post('/api/notes', (req, res) => {
      // set id based on what the next index of the array will be
-     //   req.body.id = noteInfo.length.toString();
+       req.body.id = noteInfo.length.toString();
      // add notes to json file and notes array in this function
   const note = createNewNote(req.body, noteInfo);
   
