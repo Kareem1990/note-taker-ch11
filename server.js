@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const  { noteInfo } = require("/db/db.json");
+const  { noteInfo } = require("./db/db.json");
 const fs = require('fs');
 const path = require('path');
 
@@ -16,7 +16,7 @@ function createNewNote(body, notesArray) {
   const note = body;
   notesArray.push(note);
   fs.writeFileSync(
-      path.join(__dirname, '/db/db.json'),
+      path.join(__dirname, './db/db.json'),
       JSON.stringify({ noteInfo: notesArray }, null, 2)
     );
 
