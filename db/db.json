@@ -1,12 +1,16 @@
-[
-  {
-    "title": "test 2",
-    "text": " test 2",
-    "id": "1"
-  },
-  {
-    "title": "test 4",
-    "text": "test 4",
-    "id": "3"
-  }
-]
+{
+  "noteInfo": [
+    {
+      "title": "asdasd",
+      "text": "asdasdasd"
+    },
+    {
+      "title": "adasd",
+      "text": "asdasdad"
+    },
+    {
+      "title": "مساء الخير",
+      "text": "مساء النور"
+    }
+  ]
+} 
